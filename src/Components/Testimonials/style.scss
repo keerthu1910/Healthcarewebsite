@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.container{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    img{
+        position: absolute;
+        z-index: -1;
+        left: 55px;
+        margin-top: 200px;
+    }
+    .testimonials-container{
+        width: 1120px;
+        height: 425px;
+        border-radius: 24px;
+        background:linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Mulish;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            color: white;
+            .rectangle{
+                width: 56px;
+                height: 2px;
+                border-radius: 6px;
+                background-color: white;
+            }
+            img{
+                align-items: flex-end;
+            }
+        }
+       .testimonials-content{
+        display: grid;
+        grid-template-columns: 50fr 50fr;
+       }
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+
+    .description-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 150px;
+        box-sizing: border-box;
+        padding: 80px;
+
+        .img-container{
+            img{
+                width: 650px;
+                height: 477px;
+            }
+        }
+        .description-content{
+            font-family: 'Mulish', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content:left;
+            padding: 80px;
+            margin-top: -50px;
+            .heading{
+                font-weight: 700;
+                font-size: 36px;
+            }
+            .rectangle{
+                width: 56px;
+                height: 2px;
+                border-radius: 10px;
+                background-color: black;
+            }
+            .content{
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                }
+                button{
+                    width:200px;
+                    height:60px;
+                    border-radius: 55px;
+                    border-color: #458FF6;
+                    color: #458FF6;
+                    background-color: white;
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+        }
+    }
+    
+}

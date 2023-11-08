@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish:wght@200&display=swap');
+
+.services-container{
+    margin-top: 70px;
+    .btn-container{
+        text-align: center;
+        button{
+            width:200px;
+            height:60px;
+            border-radius: 55px;
+            border-color: #458FF6;
+            color: #458FF6;
+            background-color: white;
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+    
+   
+    .background-container{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        z-index: -1;
+        .element{
+            width:131px;
+            height:115px;
+        }
+        .bgimg{
+            width:1118px;
+            height:968px
+        }
+    }
+    .content-container{
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Mulish', sans-serif;
+            text-align: center;
+            .rectangle{
+                width:56px;
+                height:2px;
+                background-color: black;
+            }
+            .title{
+                font-weight: 700;
+                font-size: 36px;
+                align-self: center;
+            }
+            .title-content{
+                font-size: 18px;
+            }
+        }
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width:1120px;
+        height:745px;
+        margin: auto;
+        margin-top: 25px;
+        .card{
+            height: 330px;
+            width: 330px;
+            background-color: white;
+            border-radius: 20px;
+            box-sizing: border-box;
+            padding: 50px;
+            img{
+                height: 60px;
+                width: 55px;
+            }
+            .card-title{
+                font-weight: 700;
+                font-family: 'Mulish', sans-serif;
+                font-size: 24px;
+            }
+            .card-content{
+                font-weight: 300;
+                font-family: 'Mulish', sans-serif;
+                font-size: 16px;
+                color:#7D7987;
+            }
+        }
+    }
+
+   
+}

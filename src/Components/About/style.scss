@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish:wght@200&display=swap');
+.about-container{
+    display: grid;
+    grid-template-columns: 10fr 30fr 60fr;
+    gap: 10px;
+    .aboutcontent-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        h1{
+            font-family: 'Mulish', sans-serif;
+            font-weight: bolder;
+        }
+        p{
+            font-family: 'Mulish', sans-serif;
+            font-size: 21px;
+            color: #7D7987;
+            font-weight: 300;
+        }
+        button{
+            font-family: 'Mulish', sans-serif;
+            background-color: #458FF6;
+            width: 200px;
+            height: 60px;
+            border-radius: 50px;
+            border: none;
+            color: white;
+            margin-top: 20px;
+           }
+    }
+    .aboutlargeimg-container{
+        display: flex;
+        padding: 10px;
+       img{
+        Width:693px;
+        height:598px;
+       }
+       
+    }
+   
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+    padding:15px;
+
+    .logo-container{
+        margin-left: 8%;
+    }
+    .menu-container{
+       
+        .menu-list{
+            display: flex;
+            list-style: none;
+            :link{
+                font-family: 'Libre Baskerville', serif;
+                text-decoration: none;
+                margin:5px;
+                padding:10px;
+                color: #1F1534;
+                font-size:18px;
+                font-weight: 400;    
+            }
+        }
+        .menu-btn{
+            display: none;
+        } 
+    }
+    
+}
+    
